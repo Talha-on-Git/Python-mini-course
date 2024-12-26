@@ -98,7 +98,10 @@ while mul<=9:
 
 
 
+name= input(" enter animal name: ")
 
+while name != "cat":
+    print(name)
 
 
 
