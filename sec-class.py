@@ -64,13 +64,25 @@ tra =mileage(distance, petrol)
 print(tra*2)
 """
 
-animal = input("enter your pet animal")
+# animal = input("enter your pet animal")
 
-if  animal == "dog":
-    print ("you have enter dog ")
-elif animal == " cat":
-    print("you have enter cat")
-else:   
-    print("worrng input")
+# if  animal == "dog":
+#     print ("you have enter dog ")
+# elif animal == " cat":
+#     print("you have enter cat")
+# else:   
+#     print("worrng input")
+
+
+marks = int(input("enter your mark "))
+
+def sheet(marks):
+    if marks = 60:
+        print("you pass")
+    else:
+        print("fail")
+
+sheet(marks)
+
 
 
