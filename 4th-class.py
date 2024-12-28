@@ -53,8 +53,71 @@
 #     print(i)
 
 
-for i in range(1,11):
-    if i == 5:
-        continue
-    print(i)
+# for i in range(1,11):
+#     if i == 5:
+#         continue
+#     print(i)
 
+
+
+
+
+
+# fur = ["apple", "banana", "grap"]
+
+# # Outer loop for each fruit
+# for i in fur:
+#     print("Fruit",i)
+    
+#     # Inner loop for each character of the fruit
+#     for char in i:
+#         print(f"  Character: ",char)
+
+# list1 = []
+
+# for i in range(5):
+#     add = int(input("enter a number: "))
+#     list1.append(add)
+#     print(list1)
+
+
+user = int(input("range katni honi chahiy: "))
+list1 = []
+sum = 0
+for i in range(user):
+    add = int(input("enter a number: "))
+    list1.append(add)
+    # print(list1)
+    # new = list1
+    sum = sum+add
+mean = sum/len(list1)
+
+print(mean)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# number = [1,2,3,4,5]
+# sum = 0
+
+# for i in number:
+#     sum = sum+i
+
+# mean = sum/len(number)
+# print(mean)
