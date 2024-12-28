@@ -98,10 +98,7 @@ while mul<=9:
 
 
 
-# name= input(" enter animal name: ")
 
-# while name != "cat":
-#     print(name)
 
 
 
@@ -111,4 +108,3 @@ Take a number as input from user
 
 Write a function that returns whether the number is positive or negative
 """
-
