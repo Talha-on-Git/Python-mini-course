@@ -88,7 +88,6 @@ for i in range(user):
     add = int(input("enter a number: "))
     list1.append(add)
     # print(list1)
-    # new = list1
     sum = sum+add
 mean = sum/len(list1)
 
